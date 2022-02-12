@@ -1,0 +1,8 @@
+# Based on: https://dev.to/oracle2025/how-to-keep-a-dockerfile-updated-with-dependabot-1mdn
+
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "daily"
