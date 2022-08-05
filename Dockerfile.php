@@ -1,3 +1,3 @@
-FROM php:5.3
+FROM php:8.1.9
 
 CMD ["/bin/bash"]
